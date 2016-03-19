@@ -22,6 +22,10 @@ header .menu > li > a {
     color: #fff;
 }
 
+header .menu > li.menu-text > a {
+    padding: 0;
+}
+
 header .menu > li:not(.menu-text) > a:hover {
     background: #fff;
     color: #41703a;
