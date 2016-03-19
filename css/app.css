@@ -88,6 +88,7 @@ h2 {
     background: url(../img/iconsearch.png) center center no-repeat transparent;
     height: 44px;
     width: 80px;
+    outline: none;
 }
 
 .page {
