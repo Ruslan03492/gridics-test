@@ -35,6 +35,10 @@ header .menu > li.menu-text {
     padding-right: 2.813rem;
 }
 
+header .top-bar-left .menu > li > a {
+    font-weight: 400;
+}
+
 header .top-bar-right .menu {
     text-transform: uppercase;
 }
