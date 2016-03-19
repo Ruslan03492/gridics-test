@@ -188,7 +188,7 @@ h2 {
 
 .writecall__block button {
     padding: 15px 50px;
-    font-weight: 800;
+    font-weight: 500;
     margin-bottom: 10px;
 }
 
@@ -233,6 +233,7 @@ footer .menu > li > a {
     color: #4d4d4d;
     font-size: 12px;
     padding: 4px 1rem;
+    font-family: Roboto Condensed;
 }
 
 @media screen and (min-width: 64em) {
