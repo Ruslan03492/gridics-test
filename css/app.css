@@ -118,6 +118,7 @@ h2 {
     color: #0a0a0a;
     padding: 0;
     line-height: 1.6;
+    font-family: Roboto Condensed;
 }
 
 .faq h2 {
@@ -138,6 +139,7 @@ h2 {
 .p-in-faq a {
     font-size: 24px;
     color: #0a0a0a;
+    font-family: Roboto Condensed;
 }
 
 .writecall {
