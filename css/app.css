@@ -1,0 +1,221 @@
+body {
+    font-family: "Roboto","Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+}
+
+h1, h2, h3, h4 {
+    font-family: Roboto Condensed;
+}
+
+header .top-bar {
+    padding: 0;
+}
+
+header .top-bar, header .top-bar ul, .sticky-container {
+    background: #41703a;
+}
+
+header .menu > li > a {
+    padding: 1.2rem 1rem;
+    font-family: Roboto Condensed;
+    font-weight: 300;
+    color: #fff;
+}
+
+header .menu > li:not(.menu-text) > a:hover {
+    background: #fff;
+    color: #41703a;
+}
+
+header .menu > li.menu-text {
+    padding-right: 2.813rem;
+}
+
+header .top-bar-right .menu {
+    text-transform: uppercase;
+}
+
+header .header__bottom {
+    background: url(../img/header-bg.png) no-repeat;
+    background-size: cover;
+    height: 174px;
+    padding-top: 52px;
+}
+
+h1.title {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 46px;
+}
+.search {
+    padding: 0 30px 0px 30px;
+}
+
+.search > .row {
+    border: 1px solid #fff;
+    border-radius: 4px;
+}
+.search .input-group{
+    margin-bottom: 0;
+}
+.search .search__text {
+    border: none;
+    box-shadow: none;
+    background: none;
+    -webkit-appearance: none;
+    padding: 35px 10px 35px 10px;
+}
+
+.search .search__button{
+    border: none;
+    background: url(../img/iconsearch.png) center center no-repeat transparent;
+    height: 44px;
+    width: 80px;
+}
+
+.page {
+    padding-top: 10px;
+}
+
+.content {
+    padding-top: 57px;
+}
+
+.breadcrumbs a {
+    text-transform: none;
+}
+
+.breadcrumbs li:not(:last-child)::after {
+    content: "|";
+    margin: 0 4px;
+    top: 0px;
+}
+
+.breadcrumbs li:first-child {
+    font-weight: 500;
+}
+
+.navigation__left {
+    border: 1px solid #DADADA;
+    background: #F2F2F2;
+    padding: 20px 20px 10px 20px;
+}
+
+.navigation__left li {
+    font-size: 23px;
+    font-family: Roboto Condensed;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+.faq h2 {
+    margin-bottom: 25px;
+}
+
+.p-in-faq:last-child {
+    border-bottom: 1px solid #E2E2E2;
+}
+
+.p-in-faq {
+    border-top: 1px solid #E2E2E2;
+    padding: 20px 30px 20px 30px;
+    font-size: 24px;
+    margin: 0;
+}
+
+.writecall {
+    margin-top: 72px;
+    position: relative;
+
+}
+
+.writecall__block {
+    /*padding: 40px 20px 12px;*/
+}
+
+.writecall__wrapper {
+    float: left;
+    width: 100%;
+    border: 1px solid #959595;
+    padding: 37px 20px 16px;
+}
+
+.writecall__block:first-child {
+    border-right: 1px solid #959595;
+}
+
+.writecall__block:last-child {
+    border-left: none;
+}
+
+.writecall__block > h3 {
+    color: #41703a;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.writecall__block > p {
+    font-size: 22px;
+    margin-bottom: 28px;
+}
+.writecall__block button {
+    padding: 15px 50px;
+    font-weight: 500;
+}
+
+.telnumber {
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.callus {
+    background: #41703a;
+    margin-top: 75px;
+}
+
+.callus__ico {
+    background: url(../img/people.png) 10% no-repeat;
+    height: 172px;
+    background-size: contain;
+}
+
+.callus__wrapper {
+    padding-top: 37px;
+}
+
+.callus__wrapper p.text {
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.callus__wrapper p {
+    color: #fff;
+    font-size: 35px;
+    font-family: Roboto Condensed;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.callus__wrapper p span {
+    color: #f3e721;
+}
+
+
+footer .menu > li > a {
+    color: #4d4d4d;
+    font-size: 12px;
+    padding: 4px 1rem;
+}
+
+@media screen and (min-width: 64em) {
+    .navigation.large-4 {
+        width: 30%;
+    }
+    .writecall__block:first-child {
+        width: 48.5%;
+    }
+    .callus__wrapper .text-left {
+        padding-left: 110px;
+    }
+}
