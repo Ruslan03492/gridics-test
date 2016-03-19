@@ -139,11 +139,15 @@ h2 {
     float: left;
     width: 100%;
     border: 1px solid #959595;
-    padding: 37px 20px 16px;
+    padding: 18px 20px 16px;
 }
 
 .writecall__block:last-child {
     border-left: none;
+}
+
+.writecall__block {
+    padding-top: 10px;
 }
 
 .writecall__block > h3 {
@@ -160,6 +164,7 @@ h2 {
 .writecall__block button {
     padding: 15px 50px;
     font-weight: 500;
+    margin-bottom: 10px;
 }
 
 .telnumber {
@@ -212,13 +217,10 @@ footer .menu > li > a {
 
     .writecall__block:first-child {
         width: 48.5%;
+        border-right: 1px solid #959595;
     }
 
     .callus__wrapper .text-left {
         padding-left: 110px;
-    }
-
-    .writecall__block:first-child {
-        border-right: 1px solid #959595;
     }
 }
