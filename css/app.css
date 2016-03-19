@@ -73,6 +73,9 @@ h2 {
 }
 
 .search .search__text {
+    font-family: Roboto Condensed;
+    color: #fff;
+    font-size: 30px;
     border: none;
     box-shadow: none;
     background: none;
