@@ -114,6 +114,12 @@ h2 {
     padding-bottom: 15px;
 }
 
+.navigation__left li a {
+    color: #0a0a0a;
+    padding: 0;
+    line-height: 1.6;
+}
+
 .faq h2 {
     margin-bottom: 25px;
 }
@@ -127,6 +133,11 @@ h2 {
     padding: 20px 30px 20px 30px;
     font-size: 24px;
     margin: 0;
+}
+
+.p-in-faq a {
+    font-size: 24px;
+    color: #0a0a0a;
 }
 
 .writecall {
